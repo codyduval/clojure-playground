@@ -25,12 +25,6 @@
     (println "You said:" user-string)
     (println "Reversed this is:" (reverse-string user-string))))
 
-; (defn go []
-;   (let [user-string (get-string)]
-;     (println "You said:" user-string)
-;     (let [reversed-string (reverse-string user-string)]
-;       (println "Reversed this is:" reversed-string))))
-
 (defn -main []
     (go))
 
